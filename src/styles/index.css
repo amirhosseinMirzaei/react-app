@@ -33,4 +33,15 @@ body {
   padding: 1rem;
   border-radius: 10px;
   width: 200px;
+  height: 300px; /* ارتفاع ثابت برای همه کارت‌ها */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden; /* جلوگیری از بیرون‌زدگی */
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }

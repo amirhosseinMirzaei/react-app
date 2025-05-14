@@ -22,8 +22,8 @@ export const games:Game[]=[
   },
   {
     id: 2,
-    title: "The Witcher 3: Wild Hunt",
-    image: "/witcher.avif",
+    title: "The Witcher",
+    image: "/witcher.jpg",
     platforms: ["Windows", "PlayStation", "Xbox", "Nintendo"],
     score: 92,
     genres: ["RPG", "Adventure"],
