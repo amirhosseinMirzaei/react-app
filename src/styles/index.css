@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 1rem;
+  background-color: #1e1e1e;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.game-card {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+}
