@@ -38,3 +38,32 @@ export const games:Game[]=[
   },
 
 ]
+
+export const topGames:Game[]=[
+
+{
+    id: 4,
+    title: "FC 25",
+    image: "/fifa.webp",
+    platforms: ["Windows", "PlayStation", "Xbox"],
+    score: 92,
+    genres: ["Action", "Adventure"],
+  },
+  {
+    id: 5,
+    title: "Red dead",
+    image: "/red.webp",
+    platforms: ["Windows", "PlayStation", "Xbox", "Nintendo"],
+    score: 92,
+    genres: ["RPG", "Adventure"],
+  },
+  {
+    id: 6,
+    title: "Mortal combat",
+    image: "/mortal.jpg",
+    platforms: ["Windows", "Mac", "Linux", "PlayStation", "Xbox"],
+    score: 95,
+    genres: ["Puzzle", "Shooter"],
+  },
+
+]
