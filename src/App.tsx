@@ -7,6 +7,7 @@ import { GameCard } from "./components/GameCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { TopGameHeader } from "./components/TopGameHeader";
+import { AppBar } from "./components/Appbar";
 
 export const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -14,6 +15,7 @@ export const App = () => {
   return (
     <div className="app">
       {/* هدر در بالا */}
+      <AppBar></AppBar>
       <TopGameHeader />
 
       {/* محتوای اصلی: سایدبار + لیست بازی‌ها */}
